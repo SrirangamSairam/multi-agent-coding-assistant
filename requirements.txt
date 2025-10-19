@@ -1,0 +1,8 @@
+dotenv~=0.9.9
+python-dotenv~=1.1.1
+streamlit~=1.50.0
+fastapi~=0.119.0
+uvicorn~=0.37.0
+autogen-agentchat~=0.7.5
+autogen-core~=0.7.5
+autogen-ext[docker,ollama,openai]~=0.7.5

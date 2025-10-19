@@ -1,0 +1,23 @@
+[project]
+name = "agent-coding-framework"
+version = "0.1.0"
+description = "Multi Agentic Coding Framework"
+authors = [
+    {name = "Sairam Srirangam"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi (>=0.119.0,<0.120.0)",
+    "uvicorn (>=0.37.0,<0.38.0)",
+    "autogen-agentchat (>=0.7.5,<0.8.0)",
+    "autogen-core (>=0.7.5,<0.8.0)",
+    "autogen-ext[docker,ollama,openai] (>=0.7.5,<0.8.0)",
+    "dotenv (>=0.9.9,<0.10.0)",
+    "streamlit (>=1.50.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
